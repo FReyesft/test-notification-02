@@ -1,0 +1,7 @@
+{
+  "name": "test-notification-02",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
