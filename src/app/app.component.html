@@ -1,3 +1,23 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+      <ion-header>
+            <ion-toolbar> <ion-title> Ionic Blank </ion-title> </ion-toolbar>
+          </ion-header>
+          
+          <ion-content padding>
+            <br />
+            <ion-button (click)="subscribeToTopic()">Subscribe</ion-button>
+            <ion-button color="warning" (click)="localNotification()">Local notification</ion-button>
+            <ion-button color="danger" (click)="unSubscribeTopic()">
+              Unsubscribe
+            </ion-button>
+            <ion-button color="warning" (click)="getToken()">Get token</ion-button>
+            {{ token }}
+            <br />
+            Notifications:
+            <br />
+            <ion-text *ngFor="let notification of notifications">
+                  {{notification.title}}
+            </ion-text>
+          </ion-content>
+          
 </ion-app>

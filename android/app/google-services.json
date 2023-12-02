@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994189811015",
+    "project_id": "test-norification",
+    "storage_bucket": "test-norification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994189811015:android:bce0dbd4623629aaad4062",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhN0ia6nSAegLez2emPePZca_Ix3rkKnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
